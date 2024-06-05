@@ -1,0 +1,34 @@
+body {
+    background-color: #ffffff; /* White background */
+    color: #000000;
+}
+
+.bg-white {
+    background-color: #ffffff !important; /* White color for elements */
+}
+
+.btn-light {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    color: #000000;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #ffffff;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+button {
+    font-size: 1.5em;
+}
+
+#display {
+    height: 3em;
+    font-size: 2em;
+    border-radius: 10px;
+}

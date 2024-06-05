@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna Eletrônica Virtual</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-white text-dark">
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card bg-light">
+                    <div class="card-header text-center bg-white text-dark">
+                        <h2>Urna Eletrônica</h2>
+                    </div>
+                    <div class="card-body bg-light text-dark">
+                        <div id="display" class="form-control bg-white text-dark text-center mb-3">Digite seu Voto</div>
+                        <div class="row">
+                            <div class="col-4 p-1"><button class="btn btn-light btn-block" onclick="urna.digitarNumero(1)">1</button></div>
+                            <div class="col-4 p-1"><button class="btn btn-light btn-block" onclick="urna.digitarNumero(2)">2</button></div>
+                            <div class="col-4 p-1"><button class="btn btn-light btn-block" onclick="urna.digitarNumero(3)">3</button></div>
+                            <div class="col-4 p-1"><button class="btn btn-light btn-block" onclick="urna.digitarNumero(4)">4</button></div>
+                            <div class="col-4 p-1"><button class="btn btn-light btn-block" onclick="urna.digitarNumero(5)">5</button></div>
+                            <div class="col-4 p-1"><button class="btn btn-light btn-block" onclick="urna.digitarNumero(6)">6</button></div>
+                            <div class="col-4 p-1"><button class="btn btn-light btn-block" onclick="urna.digitarNumero(7)">7</button></div>
+                            <div class="col-4 p-1"><button class="btn btn-light btn-block" onclick="urna.digitarNumero(8)">8</button></div>
+                            <div class="col-4 p-1"><button class="btn btn-light btn-block" onclick="urna.digitarNumero(9)">9</button></div>
+                            <div class="col-4 p-1"><button class="btn btn-light btn-block" onclick="urna.digitarNumero(0)">0</button></div>
+                            <div class="col-8 p-1"><button class="btn btn-success btn-block" onclick="urna.confirmar()">CONFIRMA</button></div>
+                            <div class="col-4 p-1"><button class="btn btn-warning btn-block" onclick="urna.corrigir()">CORRIGE</button></div>
+                            <div class="col-12 p-1"><button class="btn btn-secondary btn-block" onclick="urna.votoNulo()">VOTO NULO</button></div>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center bg-white text-dark">
+                        <small>&copy; 2024 Urna Eletrônica Virtual</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
